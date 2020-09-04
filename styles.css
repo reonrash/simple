@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica';
+}
+.nav-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: 10px;
+}
+body {
+    background-color: #fdfcf5;
+    margin: 0 1em;
+}
+section {
+    position: absolute;
+ 
+    padding-left: 10px;
+    top: 0;
+    right: 0;
+}
+h1 {
+    color: rgb(255, 121, 59);
+}
+h1.name {
+    font-size: 2em;
+    position: relative;
+   
+    background-color: rgb(255, 121, 59) ;
+    color: #fdfcf5;
+   padding-right: 100px;
+    
+}
+h1.name::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    background: #fdfcf5;
+    bottom: 0;
+    right: 20%;
+  
+
+}
+
+p {
+    
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: rgb(172, 166, 166);
+    padding-top: 20px;
+    max-width: 300px;
+}
